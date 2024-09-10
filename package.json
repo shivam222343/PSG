@@ -1,6 +1,6 @@
 {
   
-  "homepage": "https://shivam222343.github.io/ProblemStatementGenerator_AI",
+  "homepage": "https://shivam222343.github.io/PSG",
   
   "name": "mini",
   
@@ -16,7 +16,7 @@
   "predeploy": "npm run build",
   
     
-  "deploy": "gh-pages -d dist",
+  "deploy": "gh-pages -d build",
   
     
   "dev": "vite",
