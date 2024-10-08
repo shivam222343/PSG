@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
 import './index.css'
 import Shortlist from './components/Shortlist.jsx'
+import MoreInfo from './components/MoreInfo.jsx'
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
         path:"/Ai-Prompt",
         element:<Ai/>
       },
+      {
+        path:"/MoreInfo",
+        element:<MoreInfo/>
+      }
     ]
   }
 ])

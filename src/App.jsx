@@ -10,7 +10,7 @@ function App() {
   return (
 
     //body is defining here.
-   <body className='bg-gradient-to-tr to-black from-slate-900 h-[100vh] w-[100vw]' >
+   <body className='bg-gradient-to-tr to-black from-slate-900 min-h-[100vh] max-auto pb-10 w-[100vw]' >
        <>
     <Header/>
     <Outlet/>

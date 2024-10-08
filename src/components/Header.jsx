@@ -12,15 +12,15 @@ function header() {
           <h1 className='LogoText text-xl font-bold text-white'>Team Logo</h1>
         </div>
         <div className="Short-list lg:w-[300px] flex items-center  justify-center lg:h-14 ">
-        <NavLink to={"/Short-List"} className={({ isActive }) => `${isActive ? "text-red-600" : "text-white"} AI text-xl font-bold text-yellow-300 lg:hidden ml-2 border-[2px] rounded-xl p-2 px-3 border-yellow-300 cursor-pointer text-center `}>SL</NavLink>
+        <NavLink to={"/Short-List"} className={({ isActive }) => `${isActive ? "text-red-600" : "text-white"} AI text-xl font-bold text-yellow-300 lg:hidden ml-2 border-[2px] rounded-xl p-2 px-3 border-yellow-300 cursor-pointer text-center  `}>SL</NavLink>
         <NavLink to={"/Short-List"} className={({ isActive }) => `${isActive ? "text-red-600" : "text-white"} PromptText text-xl font-bold text-white hidden lg:block cursor-pointer text-center hover:text-red-500 duration-500`}>Short List</NavLink>
-        <NavLink to={"/Short-List"} className={({ isActive }) => `${isActive ? "text-red-600" : "text-white"} AI-sm text-xl font-bold text-yellow-300 hidden lg:block ml-2 border-[2px] rounded-xl p-2 px-3 border-yellow-300 cursor-pointer text-center`}>SL</NavLink>
+        <NavLink to={"/Short-List"} className={({ isActive }) => `${isActive ? "text-red-600" : "text-white"} AI-sm text-xl font-bold text-yellow-300 hidden lg:block ml-2 border-[2px] rounded-xl p-2 px-3 border-yellow-300 cursor-pointer text-center duration-500 hover:text-gray-900 hover:bg-yellow-200`}>SL</NavLink>
         </div>
         <div className="Prompt lg:w-[300px] flex items-center justify-center lg:h-14">
         <h1 className=''></h1>
         <NavLink to={"/Ai-Prompt"} className={({ isActive }) => `${isActive ? "text-red-600" : "text-white"} AI text-xl font-bold text-yellow-300 lg:hidden ml-2 border-[2px] rounded-xl p-2 px-3 border-yellow-300 cursor-pointer text-center `}>AI</NavLink>
         <NavLink to={"/Ai-Prompt"} className={({ isActive }) => `${isActive ? "text-red-600" : "text-white"} PromptText text-xl font-bold text-white hidden lg:block cursor-pointer text-center hover:text-red-500 duration-500`}>Prompt Generator</NavLink>
-        <NavLink to={"/Ai-Prompt"} className={({ isActive }) => `${isActive ? "text-red-600" : "text-white"} AI-sm text-xl font-bold text-yellow-300 hidden lg:block ml-2 border-[2px] rounded-xl p-2 px-3 border-yellow-300 cursor-pointer text-center`}>AI</NavLink>
+        <NavLink to={"/Ai-Prompt"} className={({ isActive }) => `${isActive ? "text-red-600" : "text-white"} AI-sm text-xl font-bold text-yellow-300 hidden lg:block ml-2 border-[2px] rounded-xl p-2 px-3 border-yellow-300 cursor-pointer text-center duration-500 hover:text-gray-900 hover:bg-yellow-200`}>AI</NavLink>
         </div>
         <div className="ContactUS lg:w-[300px] flex items-center justify-end lg:h-14 pr-2 ">
         <h1 className='Menu text-5xl font-bold text-white lg:hidden cursor-pointer text-center '><CgMenuGridO /></h1>
