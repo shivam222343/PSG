@@ -7,6 +7,7 @@ import App from './App.jsx'
 import './index.css'
 import Shortlist from './components/Shortlist.jsx'
 import MoreInfo from './components/MoreInfo.jsx'
+import Contact from './components/Contact.jsx'
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:"/MoreInfo",
         element:<MoreInfo/>
+      },
+      {
+        path:"/ContatUs",
+        element:<Contact/>
       }
     ]
   }

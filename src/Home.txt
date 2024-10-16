@@ -118,9 +118,8 @@ function Home() {
   return (
     <div>
       <div className='flex items-center relative'>
-        <div className="Home relative min-h-[30vh] w-[100vw] bg-black md:flex flex-col items-center">
-        <Spline scene="https://prod.spline.design/4o9BDpeATAz1v5v3/scene.splinecode" />
-
+        <div className="Home relative min-h-[30vh] w-[100vw] md:flex flex-col items-center">
+          <Spline scene="https://prod.spline.design/Kxp6B8aiPXuaYozz/scene.splinecode" />
 
           <div className="Headline top-20 md:absolute text-yellow-500 font-bold lg:text-3xl mt-6 text-2xl">Problem Statement Generator</div>
           <div className="tagline md:absolute md:top-20 text-white lg:text-lg text-md mt-16">"The Problem Lab: Generate Statements, Ignite Solutions"</div>

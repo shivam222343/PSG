@@ -24,7 +24,7 @@ function header() {
         </div>
         <div className="ContactUS lg:w-[300px] flex items-center justify-end lg:h-14 pr-2 ">
         <h1 className='Menu text-5xl font-bold text-white lg:hidden cursor-pointer text-center '><CgMenuGridO /></h1>
-        <h1 className='ContactText text-xl font-bold mr-6 text-white hidden lg:block cursor-pointer text-center hover:text-red-500 duration-500'>Contact Us</h1>
+        <h1 className=''><NavLink to={"/ContatUs"} className={({ isActive }) => `${isActive ? "text-red-600" : "text-white"} ContactText text-xl font-bold mr-6 text-white hidden lg:block cursor-pointer text-center hover:text-red-500 duration-500 `}>Contact Us</NavLink></h1>
        
         </div>
       </div>

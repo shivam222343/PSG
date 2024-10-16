@@ -3,6 +3,7 @@ import { IoPlayBackCircle } from "react-icons/io5";
 import { NavLink } from 'react-router-dom';
 import axios from 'axios';
 import Spline from '@splinetool/react-spline';
+import './App.css';
 
 
 function Ai() {
@@ -135,7 +136,7 @@ function Ai() {
             <div onClick={copyToClipboard} className="copy hover:shadow-lg duration-300 hover:shadow-yellow-400 shadow-sm shadow-yellow-400 sh bg-zinc-900 text-lg text-yellow-400 right-0 mr-10 cursor-pointer absolute px-4 top-30 inline font-semibold p-1 rounded-md">Copy</div>
             {response}
           </pre>
-          <pre ref={responseRef} onClick={copyToClipboard} className={`p-2 text-${fontsize} font-semibold font-mono bg-zinc-950 min-h-96 w-[90vw] overflow-hidden text-wrap text-white mt-20 rounded-md lg:hidden`}>
+          <pre ref={responseRef} onClick={copyToClipboard} className={`response p-2 text-${fontsize} font-semibold font-mono bg-zinc-950 min-h-96 w-[90vw] overflow-hidden text-wrap text-white mt-20 rounded-md lg:hidden`}>
             <div className="copy bg-zinc-950 text-yellow-400 text-lg right-0 absolute font-semibold top-0 px-4 cursor-pointer p-1 rounded-md mt-11">Copy</div>
             {response}
           </pre>
